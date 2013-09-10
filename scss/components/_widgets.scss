@@ -1,0 +1,17 @@
+.widget {
+    margin: 2em;
+
+    h4 {
+        @include trailer(.5);
+    }
+}
+
+.widget #searchform label {
+    display: none;
+}
+
+.widget ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
