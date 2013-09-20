@@ -151,16 +151,17 @@ header {
 }
 
 .sidebar {
-    background: #dedede;
+    // background: #dedede;
     float: right;
     width: 30.8823529%;  /* 315 / 1020 */
+    @include trailer(1.5);
 }
 
 .nav-above,
 .nav-below {
     @extend %clearfix;
     clear: both;
-    @include rhythm(1,0,0,1);
+    @include rhythm(0,1,1,0);
 
     .nav-previous {
         float: left;
