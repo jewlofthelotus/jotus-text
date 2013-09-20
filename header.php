@@ -22,8 +22,8 @@
 
             <nav>
                 <ul>
-                    <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
-                    <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>blog">Blog</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Blog</a></li>
                     <li><a href="http://jewlofthelotus.com" target="_blank">Photography</a></li>
                     <li><a class="icon" href="http://www.github.com/jewlofthelotus" target="_blank"><i class="icon-github"></i></a></li>
                     <li><a class="icon" href="http://www.linkedin.com/in/jewlofthelotus" target="_blank"><i class="icon-linkedin"></i></a></li>
