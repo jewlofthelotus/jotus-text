@@ -1,5 +1,5 @@
 .widget {
-    margin: 2em;
+    margin: 2em 0 2em 2em;
 
     h4 {
         @include trailer(.5);
@@ -14,4 +14,18 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+#searchform {
+    input[type="text"] {
+        border: 1px solid #bbb;
+        width: 63%;
+        @include adjust-font-size-to($med-px, 1.5);
+    }
+
+    input[type="submit"] {
+        float: right;
+        width: 32%;
+        @include adjust-font-size-to($med-px, 1.5);
+    }
 }

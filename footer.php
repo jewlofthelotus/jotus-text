@@ -32,8 +32,8 @@
                     <h3><label for="s">Looking for something specific?</label></h3>
                     <form role="search" method="get" id="searchform" action="<?php bloginfo('url') ?>">
                         <div>
-                            <input name="s" type="text" value="" size="20" />
-                            <input name="searchsubmit" type="submit" value="Go" />
+                            <input name="s" type="text" value="" />
+                            <input name="searchsubmit" type="submit" value="Search" />
                         </div>
                     </form>
                 </div>
