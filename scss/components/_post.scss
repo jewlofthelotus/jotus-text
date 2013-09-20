@@ -3,6 +3,10 @@
 
     .post {
         @include trailer(1.5);
+
+        &:last-child {
+            @include trailer(0);
+        }
     }
 }
 
@@ -43,6 +47,7 @@
 
 .post-title {
     margin-left: 90px;
+    margin-right: .5em;
     margin-top: 10px;
     @include adjust-font-size-to($xx-large-px);
     @include trailer(.5);
