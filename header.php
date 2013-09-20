@@ -18,16 +18,18 @@
 <body>
     <header>
         <div class="wrapper">
-            <h1><a href="<?php echo get_option('home') ?>/"><?php bloginfo('name'); ?></a></h1>
+            <h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo('name'); ?></a></h1>
 
             <nav>
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/blog">Blog</a></li>
+                    <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
+                    <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>blog">Blog</a></li>
                     <li><a href="http://jewlofthelotus.com" target="_blank">Photography</a></li>
                     <li><a class="icon" href="http://www.github.com/jewlofthelotus" target="_blank"><i class="icon-github"></i></a></li>
                     <li><a class="icon" href="http://www.linkedin.com/in/jewlofthelotus" target="_blank"><i class="icon-linkedin"></i></a></li>
                     <li><a class="icon" href="http://www.twitter.com/jewlofthelotus" target="_blank"><i class="icon-twitter"></i></a></li>
+                    <li><a class="icon" href="<?php bloginfo('rss2_url') ?>" rel="alternate" type="application/rss+xml"><i class="icon-rss"></i></a></li>
+
                 </ul>
             </nav>
 

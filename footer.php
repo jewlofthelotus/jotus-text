@@ -6,9 +6,9 @@
                 <nav class="social">
                     <h3>Find me on the web...</h3>
                     <ul>
-                        <li><a href="http://www.github.com/jewlofthelotus" title="GitHub"><i class="icon-github"></i></a></li>
-                        <li><a href="http://www.linkedin.com/in/jewlofthelotus" title="LinkedIn"><i class="icon-linkedin"></i></a></li>
-                        <li><a href="http://www.twitter.com/jewlofthelotus" title="Twitter"><i class="icon-twitter"></i></a></li>
+                        <li><a href="http://www.github.com/jewlofthelotus" target="_blank" title="GitHub"><i class="icon-github"></i></a></li>
+                        <li><a href="http://www.linkedin.com/in/jewlofthelotus" target="_blank" title="LinkedIn"><i class="icon-linkedin"></i></a></li>
+                        <li><a href="http://www.twitter.com/jewlofthelotus" target="_blank" title="Twitter"><i class="icon-twitter"></i></a></li>
                     </ul>
                 </nav>
 
@@ -17,7 +17,7 @@
                     <a href="<?php bloginfo('rss2_url') ?>" rel="alternate" type="application/rss+xml"><i class="icon-rss"></i></a>
                 </div>
 
-                <p class="copy">&copy;<?php print(date('Y')); ?> <a href="<?php echo get_option('home') ?>/">JulieCameron.com</a></p>
+                <p class="copy">&copy;<?php print(date('Y')); ?> <a href="http://juliecameron.com">JulieCameron.com</a></p>
             </div>
 
             <div class="right">
@@ -39,7 +39,7 @@
                 </div>
 
                 <div class="devtroit">
-                    <a href="http://devtroit.com/" target="_blank"><img src="/wp-content/uploads/2012/02/badge-medium.png" alt="devtroit" /></a>
+                    <a href="http://devtroit.com/" target="_blank"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/themes/jotus-text/img/badge-medium.png" alt="devtroit" /></a>
                 </div>
             </div>
 

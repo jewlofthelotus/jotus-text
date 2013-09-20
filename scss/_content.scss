@@ -54,6 +54,16 @@ a {
     }
 }
 
+.nav-above,
+.nav-below,
+.post-content {
+    a {
+        &:hover {
+            color: $pink;
+        }
+    }
+}
+
 // Fancy color for when you select stuff! Change the color for your app.
 ::-moz-selection {
     background: #4F89A1;
