@@ -8,6 +8,10 @@
             @include trailer(0);
         }
     }
+
+    @media (max-width: $tab-end) {
+        margin-right: 0;
+    }
 }
 
 .post-wrapper {
