@@ -21,6 +21,12 @@
 .post {
     @extend %clearfix;
     background: #fff;
+
+    .dd_post_share_left {
+        @extend %clearfix;
+        display: block;
+        float: none;
+    }
 }
 
 .post-date {

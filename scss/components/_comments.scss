@@ -1,6 +1,6 @@
 .comments {
     color: #BCCF9F;
-    background: adjust-lightness($background, -5%);
+    background: $commentBg;
     clear: both;
     margin: -5px;
     padding: 30px;
@@ -11,6 +11,15 @@
     @media (max-width: $palm-end) {
         padding-left: 0;
         padding-right: 0;
+    }
+
+    a {
+        color: $lightLinkColor;
+
+        &:hover {
+            color: $lightLinkColor;
+            border-color: $lightLinkInteractionColor;
+        }
     }
 }
 
@@ -58,7 +67,7 @@
     }
 
     &.even {
-        background: adjust-lightness($background, -10%);
+        background: adjust-lightness($commentBg, -10%);
     }
 
     p {
@@ -71,7 +80,7 @@
         @include adjust-leading-to(.75);
 
         .avatar {
-            border: 5px solid adjust-lightness($background, -11%);
+            border: 5px solid adjust-lightness($commentBg, -11%);
             float: left;
             margin-right: 10px;
         }
