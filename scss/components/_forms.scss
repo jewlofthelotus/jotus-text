@@ -1,0 +1,8 @@
+input[type="text"] {
+    border: 1px solid #bbb;
+    @include adjust-font-size-to($med-px, 1.5);
+}
+
+input[type="submit"] {
+    @include adjust-font-size-to($med-px, 1.5);
+}

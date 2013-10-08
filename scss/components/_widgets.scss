@@ -18,14 +18,11 @@
 
 #searchform {
     input[type="text"] {
-        border: 1px solid #bbb;
         width: 63%;
-        @include adjust-font-size-to($med-px, 1.5);
     }
 
     input[type="submit"] {
         float: right;
         width: 32%;
-        @include adjust-font-size-to($med-px, 1.5);
     }
 }
