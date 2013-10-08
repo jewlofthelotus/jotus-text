@@ -90,6 +90,16 @@ a {
 
 // Code Styling
 code {
-    padding: 3px;
-    background: rgba($blueTeal, .3);
+    padding: 3px 6px;
+    background: rgba($black, .1);
+}
+
+pre {
+    padding: 3px 12px;
+    background: rgba($black, .1);
+
+    code {
+        background: none;
+        padding: 0;
+    }
 }

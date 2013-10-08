@@ -22,8 +22,13 @@
         }
     }
 
-    code {
-        background: rgba($blueTeal, .7);
+    code,
+    pre {
+        background: rgba(adjust-lightness($blueTeal, -10%), .7);
+    }
+
+    pre code {
+        background: transparent;
     }
 }
 
