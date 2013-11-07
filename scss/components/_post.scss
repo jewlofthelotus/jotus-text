@@ -79,6 +79,21 @@
     img.fullWidth {
         width: 100%;
     }
+
+    img.aligncenter {
+        display: block;
+        margin: 0 auto;
+    }
+
+    img.alignleft {
+        float: left;
+        margin-right: 2em;
+    }
+
+    img.alignright {
+        float: right;
+        margin-left: 2em;
+    }
 }
 
 .post-meta {
