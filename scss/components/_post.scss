@@ -77,7 +77,7 @@
 
     // FIXME let's make a custom class, this isn't going to work long
     img.fullWidth {
-        width: 100%;
+        max-width: 100%;
     }
 
     img.aligncenter {
