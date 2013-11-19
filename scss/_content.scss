@@ -82,10 +82,20 @@ a {
     float: right;
     margin-left: 15px;
 }
+.clearright {
+    clear: right;
+}
 
 .alignleft {
     float: left;
     margin-right: 15px;
+}
+.clearleft {
+    clear: left;
+}
+
+.clearboth {
+    clear: both;
 }
 
 // Code Styling
