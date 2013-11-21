@@ -94,6 +94,15 @@
         float: right;
         margin-left: 2em;
     }
+
+    @media (max-width: $palm-end) {
+        .alignleft,
+        .alignright,
+        .aligncenter {
+            max-width: 100%;
+            width: auto !important;
+        }
+    }
 }
 
 .post-meta {
