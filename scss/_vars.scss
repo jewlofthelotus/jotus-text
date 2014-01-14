@@ -43,6 +43,7 @@ $xxx-large-px: ms(9);
 // Descriptive Colors
 $white: #ffffff;
 $black: #222222;
+$grey: #eeeeee;
 
 $eggplant: #531946;
 $darkEggplant: #30162B;
@@ -60,6 +61,8 @@ $orange: #FC9A0F;
 // Functional Colors
 $background: $white;
 $copy: $black;
+
+$bodyBg: $grey;
 
 $headerBg: $eggplant;
 $footerBg: $greenTeal;

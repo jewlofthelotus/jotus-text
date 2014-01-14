@@ -113,3 +113,12 @@ pre {
         padding: 0;
     }
 }
+
+// Blockquotes
+blockquote {
+    border-left: 4px solid $grey;
+    color: darken($grey, 40);
+    font-style: italic;
+    margin: 2em 0;
+    padding: 0 1.5em;
+}
